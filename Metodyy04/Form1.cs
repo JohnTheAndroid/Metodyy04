@@ -16,5 +16,19 @@ namespace Metodyy04
         {
             InitializeComponent();
         }
+        private int Mocnina(int zaklad, int exponent)
+        {
+            int mocnina = 1;
+            for (int i = 0; i < exponent; ++i)
+            {
+                mocnina *= zaklad;
+            }
+            return mocnina;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
