@@ -28,7 +28,11 @@ namespace Metodyy04
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            int zaklad = int.Parse(textBox1.Text);
+            int exponent = int.Parse(textBox2.Text);
+            int vysledek_mocnina;
+            vysledek_mocnina = Mocnina(zaklad, exponent);
+            MessageBox.Show("Mocnina je: " + vysledek_mocnina);
         }
     }
 }
